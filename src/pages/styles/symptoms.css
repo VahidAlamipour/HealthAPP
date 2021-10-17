@@ -1,0 +1,238 @@
+.symptom {
+   /* max-width: 600px;
+  margin: 0 auto;
+  margin-top: -13px; */
+}
+
+.user-selection-header-text {
+   font-size: 1.25rem;
+   /* padding-top:35px; */
+}
+
+.edit-symptoms-page-wrapper {
+   padding-top: 45px;
+}
+
+.symptom .menu {
+   text-align: right;
+}
+
+.symptom .user-list {
+   height: 115px;
+   overflow: auto;
+   background: rgb(249, 250, 251);
+   padding: 10px;
+   margin-bottom: 8px;
+}
+
+.symptom .user-list .item {
+   line-height: 30px;
+}
+
+/* User Profile Checkbox */
+
+/*.symptom .user-list .item input[type=checkbox]
+{
+   outline: 1px solid lightgray;
+   width: 0.9em;
+   height: 0.9em;
+   background-color: white;
+   border-radius: 0%;
+   vertical-align: middle;
+   border: 1px solid #ddd;
+   -webkit-appearance: none;
+   cursor: pointer;
+   margin-bottom:4px;
+}
+.symptom .user-list .item input[type=checkbox]:checked
+{
+   outline: none;
+   width: 0.9em;
+   height: 0.9em;
+   -webkit-appearance: none;
+   margin-right: 4px;
+   
+   content: '';
+    left: 5px;
+    top: 9px;
+    width: 2px;
+    height: 2px;
+    box-shadow: 
+      2px 0 0 black,
+      4px 0 0 black,
+      4px -2px 0 black,
+      4px -4px 0 black,
+      4px -6px 0 black,
+      4px -8px 0 black;
+    transform: rotate(45deg);
+    margin-right: 4px;
+}*/
+
+.symptom .symptom-list {
+   height: 160px;
+   overflow: auto;
+   background-color: lightgray;
+}
+
+.symptom .symptom-list .item {
+   cursor: pointer;
+   margin: 5px 10px;
+   background-color: white;
+}
+
+.symptom .symptom-list .item.selected {
+   background-color: #bbb9b9;
+}
+
+.symptom .form-group .date-label {
+   flex-grow: 0;
+   margin-left: 18px;
+   line-height: 33px;
+}
+
+.symptom .form-group .col span i {
+   right: 25px;
+}
+
+.symptom .form-group span i {
+   position: absolute;
+   right: 10px;
+   top: 10px;
+   cursor: pointer;
+}
+
+/* Item Name Input Field */
+
+.symptom .form-group .border-col>div>div {
+   border: 1px solid #ced4da;
+   /*line-height: 15px !important;*/
+   padding: 0px 12px;
+   height: 38px !important;
+   border-radius: 5px;
+   font-family: Arial, Helvetica, sans-serif !important;
+   font-size: 17px;
+   padding-left: 13px;
+}
+
+.symptom .form-group .border-col>div>div>div:last-child {
+   bottom: -12px !important;
+   left: -12px !important;
+}
+
+.symptom .form-group .popper-up .rdtPicker {
+   bottom: 40px !important;
+}
+
+/* .symptom .form-group .popper-left .rdtPicker {
+    left: -55px !important; } */
+
+.symptom .form-group .popper-right .rdtPicker {
+   right: 0px !important;
+}
+
+.symptom .react-datepicker-wrapper, .symptom .react-datepicker__input-container {
+   width: 100% !important;
+}
+
+/*# sourceMappingURL=symptoms.css.map */
+
+/* the whole label field including the checkbox */
+
+/* https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+
+.symptom-checkbox-container {
+   display: block;
+   position: relative;
+   padding-left: 25px;
+   margin-bottom: 4px;
+   cursor: pointer;
+   font-size: 1rem;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   text-transform: capitalize;
+   /*background-color: black;*/
+}
+
+/* Hide the browser's default checkbox */
+
+.symptom-checkbox-container input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+}
+
+/* Checkbox is not selected or focused */
+
+.symptom-checkbox-checkmark {
+   outline: 1px solid grey;
+   position: absolute;
+   top: 7px;
+   left: 0;
+   /*height: 25px;
+   width: 25px;*/
+   width: 0.9em;
+   height: 0.9em;
+   background-color: white;
+}
+
+/* On mouse-over */
+
+.symptom-checkbox-container:hover input~.symptom-checkbox-checkmark {
+   background-color: white;
+}
+
+/* When the checkbox is checked */
+
+.symptom-checkbox-container input:checked~.symptom-checkbox-checkmark {
+   background-color: white;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.symptom-checkbox-checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+}
+
+/* Show the checkmark when checked */
+
+.symptom-checkbox-container input:checked~.symptom-checkbox-checkmark:after {
+   display: block;
+}
+
+/* Checkbox is selected */
+
+.symptom-checkbox-container .symptom-checkbox-checkmark:after {
+   left: 5px;
+   top: 3px;
+   width: 5px;
+   height: 10px;
+   border: solid green;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+
+.item-input-text {
+   font-size: 1.1rem !important;
+   font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.item-input-text.disabled {
+   background-color: rgb(241, 243, 245) !important;
+   color: rgb(188, 188, 188);
+}
+
+.item-input-text>div {
+   padding-left: 2px !important;
+}
+
+.item-input-text>input {
+   padding-left: 4px !important;
+   font-size: 1rem !important;
+   left: -7px;
+}

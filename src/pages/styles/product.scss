@@ -1,0 +1,92 @@
+.products{
+  h6{
+    font-size: 17px;
+  }
+  .form-control{
+    &::placeholder{
+      color: darkgrey !important;
+    }
+  }
+  select.form-control{
+    color: darkgrey !important;
+  }
+}
+.ingredient-list {
+  background-color: #cccccc;
+  padding: 1rem;
+  //height: calc( 100vh - 650px );
+  height: 200px;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+}
+
+.ingredient-item {
+  margin-bottom: 1rem;
+  cursor: pointer;
+  
+  .wrapper {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    padding: 1rem;
+    background-color: #ffffff;
+
+    .desc {
+      float: left;
+      white-space: pre;
+    }
+    i {
+      float: right;
+    }
+  }
+}
+
+.ops-section {
+  padding: 0px 15px;
+  .col{
+    width: 33% !important;
+    padding: 1px;
+  }
+  .btn {
+    width: 100%;
+    white-space: normal;
+    word-wrap: break-word;
+    padding: 8px 2px;
+  }
+}
+.title{
+  font-weight: bold;
+}
+//html, body{
+//  height: 100%;
+//}
+//#root{
+//  height: 100%;
+//  display: flex;
+//  justify-content: center;
+//  align-items: center;
+//}
+
+.border-col > div > div{
+  border: 1px solid #ced4da;
+  line-height: 16px;
+  padding: 0px 12px;
+  font-family: inherit !important;
+  height: 36px !important;
+  border-radius: 5px;
+}
+.border-col > div > div > div{
+  &:first-child{
+    bottom: 6px !important;
+    //color: darkgrey !important;
+    font-family: inherit !important;
+  }
+  &:last-child{
+    bottom: -12px !important;
+    left: -12px !important;
+  }
+}
+.form-control::-webkit-inner-spin-button,
+.form-control::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

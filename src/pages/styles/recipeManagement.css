@@ -1,0 +1,113 @@
+.recipeList {
+  background-color: #cccccc;
+  padding: 1rem;
+  height: calc(100vh - 240px);
+  overflow-y: scroll;
+  margin-bottom: 1rem;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.recipe-item {
+  margin-bottom: 8px;
+}
+
+.recipe-item .wrapper {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.recipe-item .recipe-item-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  width: 90%;
+}
+
+.recipe-item .recipe-item-title .no {
+  flex-basis: 1.25rem;
+}
+
+.recipe-item .recipe-item-title .name {
+  flex-grow: 1;
+}
+
+.recipe-item .recipe-item-rate {
+  display: flex;
+  flex-direction: row;
+  padding: 0rem 1rem;
+  justify-content: space-between;
+}
+
+.recipe-item .recipe-item-rate .expand {
+  flex-basis: 1.25rem;
+  margin-top: -2px;
+}
+
+.recipe-item .recipe-item-rate .expand .ingredient-toggle {
+  font-size: 1.5rem;
+}
+
+.recipe-item .recipe-item-rate .rating-box {
+  padding: 0.3125rem 1.25rem 0 1.25rem;
+}
+
+.recipe-item .recipe-item-rate .rating-box .rating.rated {
+  color: #FFD700;
+}
+
+.recipe-item .recipe-item-rate .rank-link {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.recipe-item .recipe-item-rate .checkbox {
+  transform: scale(2);
+  align-items: center;
+  display: flex;
+  z-index: -1;
+}
+
+.recipe-item .ingredient-list1 {
+  padding-left: 3rem;
+  display: none;
+  list-style: none;
+}
+
+.recipe-item .ingredient-list1.expand {
+  display: block;
+}
+
+/* Delete, Create Meal Plan and Edit Buttons */
+
+.ops-section {
+  /*padding: 1rem 0rem;*/
+  justify-content: space-between !important;
+}
+
+.ops-section .btn {
+  width: 100%;
+  height: 100%;
+  /* white-space: normal;
+   word-wrap: break-word;
+   padding: 8px 10px !important;
+   font-weight: bold; */
+}
+
+.btn-spacer {
+  padding-left: 10px;
+}
+
+form .search {
+  position: absolute;
+  top: 6px;
+  right: 20px;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=recipeManagement.css.map */

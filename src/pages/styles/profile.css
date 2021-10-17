@@ -1,0 +1,51 @@
+.profile-box {
+  margin-top: 2.5rem;
+}
+
+.profile-box .title {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.usersList {
+  padding: 8px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  max-height: 210px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+}
+
+.usersItem {
+  cursor: pointer;
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}
+
+.usersItem [class^="col-"] {
+  overflow: hidden;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.usersItem .wrapper {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  padding: 4px 0;
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.usersItem .wrapper .desc {
+  float: top;
+  white-space: pre;
+}
+
+.usersItem .wrapper .fa-check {
+  float: right;
+  margin-top: 4px;
+  color: green;
+}

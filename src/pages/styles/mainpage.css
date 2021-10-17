@@ -1,0 +1,850 @@
+.row {
+  margin-right: -4px;
+  margin-left: -4px;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.menu-nav-left-aligned {
+  padding-left: 4px;
+}
+
+.menu-section-separator {
+  width: 90%;
+  border-top: 1px solid lightgray;
+  color: gray;
+  margin: 0px auto;
+  padding-left: 10px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.menu-section-separator:first-child {
+  border: none;
+}
+
+/* Nav Bar Title */
+
+.navbar-brand {
+  margin-right: 0 !important;
+  padding-left: 10px !important;
+}
+
+.mainLogo {
+  height: 30px;
+}
+
+button.dropdown-item {
+  /*padding:2px 16px;*/
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.nav-link {
+  padding: 0px 16px !important;
+  margin-bottom: 5px;
+  /*color:#5589c4;*/
+  color: #007bff;
+}
+
+/* Nav Bar All Content : Home Link, Page Title and Hamburger Menu */
+
+nav.navbar.navbar-dark.bg-primary {
+  padding: 0 3px !important;
+  height: 40px !important;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  /* display: flex;
+   flex-direction: column;
+   height: 100vh;
+   overflow: hidden; */
+}
+
+.navbartitle {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbartitle-mobile {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  width: 70%;
+  text-align: center;
+}
+
+/* ------------------------------- vahid css ------------------------------------- */
+
+ul {
+  list-style: none;
+  padding: unset;
+  margin: unset;
+}
+
+/* 
+select.form-control {
+   color: #000 !important;
+   color: rgba(0, 0, 0, 0) !important;
+   text-shadow: 0 0 0 #000;
+   padding: 5px;
+}
+
+option {
+   background-color: white;
+} */
+
+@keyframes blink {
+  0% {
+    box-shadow: 0px 0px 35px 0px hsla(210, 17%, 59%, 0);
+  }
+  25% {
+    box-shadow: 0px 0px 5px 0px hsla(210, 17%, 59%, 1);
+  }
+  50% {
+    box-shadow: 0px 0px 35px 0px hsla(210, 17%, 59%, 0);
+  }
+  75% {
+    box-shadow: 0px 0px 5px 0px hsla(210, 17%, 59%, 1);
+  }
+  100% {
+    box-shadow: 0px 0px 35px 0px hsla(210, 17%, 59%, 0);
+  }
+}
+
+.blinking {
+  animation: blink 6s infinite;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: rgb(206, 213, 220);
+  border-color: rgb(206, 213, 220);
+  color: rgb(173, 173, 173);
+  box-shadow: none;
+}
+
+::-webkit-scrollbar-track {
+  background: #ccc;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: #757575;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.form-group {
+  margin-bottom: 8px;
+}
+
+.form-control:disabled::placeholder {
+  color: rgb(188, 188, 188);
+}
+
+.form-control:disabled {
+  color: rgb(188, 188, 188) !important;
+  background-color: rgb(241, 243, 245);
+  text-shadow: none;
+}
+
+.form-control {
+  padding-left: 5px;
+}
+
+.formRow .col-md {
+  margin-bottom: 10px;
+}
+
+.btnWide {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar .dropleft {
+  width: 15%;
+  text-align: right;
+}
+
+.navbar .navbartitle {
+  width: 70%;
+  text-align: center;
+}
+
+.navbar .navbar-brand {
+  width: 15%;
+  padding: 0;
+}
+
+.navbar .dropleft .btn-primary {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 30px;
+  box-shadow: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 100%;
+}
+
+.grayList {
+  background-color: rgb(249, 250, 251);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.invalid-feedback {
+  margin-top: 0.25rem;
+  font-size: 1rem;
+  height: auto;
+}
+
+.invalid-feedback.notShow {
+  display: none;
+}
+
+.grayList+.invalid-feedback {
+  margin-top: -8px;
+  margin-bottom: 20px;
+}
+
+.border-col>.invalid-feedback {
+  margin-top: 0.25rem;
+}
+
+.grayList.is-invalid {
+  border-color: #dc3545;
+}
+
+.item-input-text.is-invalid {
+  border-color: #dc3545 !important;
+}
+
+.item-input-text.disabled>input {
+  color: #999 !important;
+}
+
+.item-input-text.disabled>input::placeholder {
+  color: #999 !important;
+}
+
+.vPage {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  overflow-x: hidden;
+  margin-top: 40px;
+  padding: 15px 15px 0 15px;
+  min-height: 100vh;
+  /* flex: 1 */
+}
+
+.vPage.wide {
+  max-width: 100%;
+}
+
+.vPage.flex {
+  min-height: 93vh;
+  max-height: 93vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.baseRow {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.btn {
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.1);
+  padding: 8px 10px;
+  font-weight: bold;
+}
+
+.btn.btn-defualt {
+  box-shadow: none;
+}
+
+.ops-section .col-md {
+  margin-bottom: 10px;
+}
+
+.ingredient-list+.invalid-feedback {
+  margin-top: -10px;
+}
+
+.border-col div.invalid-feedback {
+  padding: 0 !important;
+  line-height: 100%;
+}
+
+.chooseUser {
+  background-color: transparent !important;
+  color: #fff !important;
+  margin-bottom: 5px;
+}
+
+.chooseUser:disabled {
+  background-color: #333 !important;
+  color: #aaa !important;
+  border-color: #666;
+}
+
+.chooseUser option {
+  color: #424242;
+}
+
+.bodyMapObject {
+  width: 100%;
+  height: 92vh;
+}
+
+form input[type="checkbox"]:focus+span {
+  border-color: #80bdff;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.editSymptomList {
+  padding: 8px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+}
+
+/* 
+.dateTimeField .form-control[readonly] {
+  background-color: #fff;
+} */
+
+/* .dateTimeField .form-control[readonly]:disabled {
+   background-color: #e9ecef;
+} */
+
+.form-control[readonly] {
+  background-color: #fff;
+}
+
+.form-control[readonly]:disabled {
+  background-color: rgb(241, 243, 245);
+}
+
+.valertSection {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+  z-index: 999;
+}
+
+.valertSection .valertContianer {
+  width: 70vw;
+  /* height: 40vh; */
+  max-width: 400px;
+  margin-top: -200px;
+  border-radius: 2px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.valertSection .valertContianer.vModal {
+  padding-top: 35px;
+}
+
+.valertSection .valertContianer p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.valertSection .valertContianer h4 {
+  font-size: 1rem;
+  color: #222;
+}
+
+.valertSection .valertContianer .ButtonsContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.valertSection .valertContianer .ButtonsContainer button {
+  margin-left: 5px;
+  box-shadow: unset;
+  padding: 6px 9px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  min-width: 4.5rem;
+}
+
+.valertSection .valertContianer .closeIcon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 1.5rem;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.valertSection .valertContianer .ingredientsAreaInMealPlanner {
+  min-height: 40vh;
+}
+
+.valertSection .valertContianer .ingredientsAreaInMealPlanner li {
+  font-size: 0.9rem;
+}
+
+.recipeItemTopSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .checkmarkContainer .login-checkmark:after {
+   left: 5px;
+   top: 3px;
+   width: 5px;
+   height: 10px;
+   border: solid green;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+.checkmark{
+   position: relative;
+   outline: 1px solid grey;
+   width: 0.9rem;
+   height: 0.r9em;
+   background-color: white;
+} */
+
+.recipeItemTopSection .checkmark {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.checkmarkContainer {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /*background-color: black;*/
+}
+
+/* Hide the browser's default checkbox */
+
+.checkmarkContainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  outline: 1px solid grey;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  /*height: 25px;
+   width: 25px;*/
+  width: 0.9em;
+  height: 0.9em;
+  background-color: white;
+}
+
+/* On mouse-over */
+
+.checkmarkContainer:hover input~.checkmark {
+  background-color: white;
+}
+
+/* When the checkbox is checked */
+
+.checkmarkContainer input:checked~.checkmark {
+  background-color: white;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+
+.checkmarkContainer input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Checkbox is selected */
+
+.checkmarkContainer .checkmark:after {
+  left: 5px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid green;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.recipeItemTopSection .checkmarkContainer .checkmark:after {
+  left: 6px;
+  top: 0px;
+  width: 7px;
+  height: 16px;
+}
+
+.manageRecipeItemDes {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.d-block {
+  position: relative;
+}
+
+.editInputSearchBtn {
+  height: 2.1rem;
+  padding: 0;
+}
+
+.chart {
+  height: 87%;
+  position: relative;
+}
+
+.chart canvas {
+  height: 100% !important;
+}
+
+.dateTimeInBlack {
+  background-color: transparent !important;
+  color: #fff;
+}
+
+.chooseUser::placeholder {
+  color: #fff;
+}
+
+.dateTimeInBlack:disabled {
+  background-color: #333 !important;
+  color: #aaa !important;
+  border-color: #666;
+}
+
+.nutritionsItem {
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.nutritionsItemTitle {
+  flex: 0.5;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.nutritionsItemAmount {
+  flex: 0.35;
+  /* overflow: hidden; */
+  text-align: right;
+  padding-right: 2px;
+}
+
+.percentageContainerArea {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.nutritionsItemPercentage {
+  flex: 0.12;
+  overflow: hidden;
+  text-align: right;
+  padding-left: 2px;
+  color: #999;
+  font-size: 0.7rem;
+}
+
+.percentageContainer {
+  width: 100%;
+  height: 10px;
+  border: 1px solid #eee;
+  background-color: #fff;
+}
+
+.percentageContainer .percentagePointer {
+  background-color: rgb(76, 154, 194);
+  height: 100%;
+}
+
+.percentageContainer .percentagePointer.special {
+  background-color: rgb(225, 45, 126);
+}
+
+.usersItem .mealPlannerGridItem {
+  padding: 4px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.usersItem .mealPlannerGridItem span {
+  flex: 1;
+}
+
+i.deleteIcon {
+  color: #ccc;
+  margin-left: 7px;
+}
+
+.nutritionsItemTitle.special, .nutritionsItemAmount.special {
+  font-weight: bold;
+}
+
+.nutritionsItemTitle.subNut {
+  padding-left: 12px;
+  margin-right: -12px;
+}
+
+.nutritionsListTitle {
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #007bff;
+}
+
+.vAutocomplete {
+  position: relative;
+}
+
+.vAutocomplete .vAutoUl {
+  max-height: 200px;
+  position: absolute;
+  width: 100%;
+  margin-top: -1px;
+  background-color: #fff;
+  border: #ddd 1px solid;
+  z-index: 9000;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-bottom: 10px;
+}
+
+.vAutocomplete .vAutoUl li {
+  padding: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.vDateTimeArea {
+  position: relative;
+}
+
+.vDateTimeArea i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+
+.iChooseUser {
+  color: #eee;
+}
+
+.vAutocomplete .vAutoUl li:hover {
+  background-color: #ddd;
+}
+
+.fa-calendar-alt.disable {
+  color: #bbb;
+}
+
+.TimeSelectionVdateTime h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.TimeSelectionVdateTime select {
+  background-color: #fff;
+  border: none;
+  font-size: 1.4rem;
+  margin-right: 10px;
+  color: #454545;
+}
+
+.TimeSelectionVdateTime .react-datepicker {
+  border: none;
+}
+
+.react-datepicker__header {
+  background-color: #fff;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.forumGrid {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  overflow-y: auto;
+}
+
+.forumItem {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.forumItem .checkmarkContainer .checkmark {
+  top: 2px;
+}
+
+.forumItem .idLink {
+  font-size: 0.8rem;
+}
+
+ddd {
+  display: flex;
+  flex-direction: row;
+}
+
+.forumItem .idLink a {
+  color: #007bff;
+  text-decoration: underline;
+  font-size: 0.8rem;
+}
+
+.forumItem .dateTime {
+  color: #656565;
+  font-size: 0.8rem;
+}
+
+.forumItem .relevant {
+  color: #444;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.forumItem .vote {
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.forumItem .vote span {
+  color: #999;
+}
+
+.forumItem .yesVote .fa {
+  color: green;
+  margin-right: 3px;
+}
+
+.forumItem .saveVote .fa {
+  color: red;
+  margin-right: 3px;
+}
+
+.forumItem .noVote .fa {
+  color: #f44336;
+  margin-right: 3px;
+}
+
+.forumItem .defIcon {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.forumItem p {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.myForumTitle {
+  display: flex;
+  align-items: center;
+}
+
+.myForumTitle h3 {
+  margin: 0;
+  color: #555;
+  font-size: 1.3rem;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon .fa {
+  position: absolute;
+  right: 2px;
+  top: 7px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.relatedPosts {
+  display: block;
+  font-size: .8rem;
+}
+
+/*-----------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+  .mealPlanSummaryContainer {
+    padding: 0;
+  }
+  .mealPlanSummaryContainer .fa-angle-left {
+    left: -10px;
+  }
+  .mealPlanSummaryContainer .fa-angle-right {
+    position: absolute;
+    right: -10px;
+  }
+}

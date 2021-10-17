@@ -1,0 +1,16 @@
+.graph-options{
+  padding: 10px;
+  //text-align: center;
+  & > div{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+    .form-control{
+      height: calc(1.8rem + 2px);
+      padding: 0rem .75rem;
+      font-size: 1rem;
+      line-height: 1;
+    }
+  }
+}

@@ -1,0 +1,117 @@
+.login-box
+{
+  margin-top: 2.5rem;
+}
+  
+.login-box .welcome-title {
+    margin-bottom: 1rem;
+    text-align: center; }
+
+.button-submit {
+  width: 100%; }
+
+.forgot-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.submit2 {
+  margin-bottom: 1rem; }
+  .submit2 button {
+    width: 100%; }
+
+.agreement-checkbox
+{
+   float: left;
+}
+
+.agreement-link
+{
+   padding-top: 10px;
+}
+/* 
+.agreement-popup
+{
+   position: fixed;
+   width: 100vw;
+   height: 100%;
+   z-index: 1;
+   background: #ffffff;
+   left : 0;
+   overflow: auto;
+   padding : 10%;
+} */
+
+/* the whole label field including the checkbox */
+/* https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+.login-container
+{
+   display: block;
+   position: relative;
+   padding-left: 25px;
+   margin-bottom: 12px;
+   cursor: pointer;
+   font-size: 1.1rem;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   /*background-color: black;*/
+}
+
+/* Hide the browser's default checkbox */
+.login-container input
+{
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+}
+
+/* Checkbox is not selected or focused */
+.login-checkmark
+{
+   outline: 1px solid grey;
+   position: absolute;
+   top: 7px;
+   left: 0;
+   /*height: 25px;
+   width: 25px;*/
+   width: 0.9em;
+   height: 0.9em;
+   background-color: white;
+}
+
+/* On mouse-over */
+.login-container:hover input ~ .login-checkmark {
+   background-color: white;
+}
+
+/* When the checkbox is checked */
+.login-container input:checked ~ .login-checkmark {
+   background-color: white;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.login-checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+}
+
+/* Show the checkmark when checked */
+.login-container input:checked ~ .login-checkmark:after {
+   display: block;
+}
+
+/* Checkbox is selected */
+.login-container .login-checkmark:after {
+   left: 5px;
+   top: 3px;
+   width: 5px;
+   height: 10px;
+   border: solid green;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+}

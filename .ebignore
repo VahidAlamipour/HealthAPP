@@ -1,0 +1,4 @@
+public/
+src/
+.ebextensions/
+node_modules/

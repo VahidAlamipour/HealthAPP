@@ -1,0 +1,33 @@
+/* Implementation in Google Chrome */
+::-webkit-scrollbar {
+   width: 5px;
+}
+
+::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+   /*border-radius: 10px;*/
+   background-color:rgb(200, 200, 200);
+}
+
+::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   /*-webkit-box-shadow: inset 0 0 6px rgb(255, 255, 255); */
+   background-color:rgb(70, 70, 70);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus
+{
+  border: 1px solid rgb(212, 212, 212);
+  -webkit-text-fill-color: black;
+  /*-webkit-box-shadow: 0 0 0px 1000px #000 inset;*/
+  transition: background-color 5000s ease-in-out 0s;
+}

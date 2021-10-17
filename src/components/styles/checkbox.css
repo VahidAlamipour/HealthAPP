@@ -1,0 +1,73 @@
+/* the whole label field including the checkbox */
+/* https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
+.component-container
+{
+   display: block;
+   position: relative;
+   padding-left: 25px;
+   margin-bottom: 12px;
+   cursor: pointer;
+   font-size: 1.1rem;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   /*background-color: black;*/
+}
+
+/* Hide the browser's default checkbox */
+.component-container input
+{
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+}
+
+/* Checkbox is not selected or focused */
+.component-checkmark
+{
+   outline: 1px solid grey;
+   position: absolute;
+   top: -6px;
+   left: 0;
+   /*height: 25px;
+   width: 25px;*/
+   width: 0.9em;
+   height: 0.9em;
+   background-color: white;
+}
+
+/* On mouse-over */
+.component-container:hover input ~ .component-checkmark {
+   background-color: white;
+}
+
+/* When the checkbox is checked */
+.component-container input:checked ~ .component-checkmark {
+   background-color: white;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.component-checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+}
+
+/* Show the checkmark when checked */
+.component-container input:checked ~ .component-checkmark:after {
+   display: block;
+}
+
+/* Checkbox is selected */
+.component-container .component-checkmark:after {
+   left: 5px;
+   top: 3px;
+   width: 5px;
+   height: 10px;
+   border: solid green;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+}

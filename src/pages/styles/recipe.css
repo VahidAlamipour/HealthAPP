@@ -1,0 +1,242 @@
+/* Chrome/Opera/Safari */
+
+/*.border-col>div>div div, .border-col>div input::-webkit-input-placeholder {
+   color: pink;
+ }*/
+
+/* Firefox 19+ */
+
+/*.border-col>div>div div, .border-col div input::-moz-placeholder {
+   color: pink;;
+ }*/
+
+/* IE 10+ */
+
+/*.border-col>div>div>div, .border-col div input:-ms-input-placeholder {
+   color: pink;;
+ }*/
+
+/* Firefox 18- */
+
+/*.border-col>div>div>div,.border-col div input:-moz-placeholder {
+   color: pink;;
+ }*/
+
+/* WebKit, Blink, Edge */
+
+/*::-webkit-input-placeholder {
+   color:    #909;
+}*/
+
+/* Mozilla Firefox 4 to 18 */
+
+/*:-moz-placeholder {
+  color:    #909;
+  opacity:  1;
+}*/
+
+/* Mozilla Firefox 19+ */
+
+/*::-moz-placeholder {
+  color:    #909;
+  opacity:  1;
+}*/
+
+/* Internet Explorer 10-11 */
+
+/*:-ms-input-placeholder {
+  color:    #909;
+}*/
+
+/* Microsoft Edge */
+
+/*::-ms-input-placeholder {
+  color:    #909;
+}*/
+
+/* Most modern browsers support this now. */
+
+/*::placeholder {
+  color:    #909;
+}*/
+
+.ingredient-list {
+   padding: .5rem;
+   height: 190px;
+   margin-bottom: .5rem;
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
+.ingredient-list h3 {
+   font-size: 1rem;
+   text-transform: capitalize;
+}
+
+.ingredient-item {
+   /*margin-bottom: 0.5rem;*/
+   margin-top: -5px !important;
+   cursor: pointer;
+}
+
+.ingredient-item .wrapper {
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+   /*padding: 1rem;*/
+   padding: 0.5rem !important;
+   background-color: #ffffff;
+   /*height : 20px;*/
+   /*padding-bottom: 0.2rem !important;*/
+}
+
+.ingredient-item .wrapper .desc {
+   float: top;
+   white-space: pre;
+   /*padding-bottom: 10px;*/
+}
+
+.ingredient-item .wrapper i {
+   float: right;
+}
+
+.ops-section {
+   /*padding: 8rem 10rem;*/
+   /*margin-left :9px;*/
+   /*display: flex !important;*/
+   justify-content: space-between !important;
+}
+
+.ops-section .btn {
+   /*width: 95% !important;*/
+   /* white-space: normal;
+   word-wrap: break-word; */
+   /*font-size: 20px;*/
+   /*font-size:100%;*/
+   /*padding-left: 2px !important;*/
+   /* padding:8px 10px !important;
+   font-weight: bold; */
+}
+
+.btn-spacer {
+   padding-left: 10px;
+}
+
+.title {
+   font-weight: bold;
+}
+
+.border-col {
+   font-size: 20px !important;
+}
+
+/* for elements in vertical in-between spacings */
+
+/* .border-col > div
+{
+   margin-top:-10px;
+   padding-top:0px;
+} */
+
+.border-col>div>div {
+   border: 1px solid #ced4da;
+   line-height: 16px;
+   padding: 0px 14px;
+   height: 36px;
+   border-radius: 5px;
+}
+
+.border-col>div>div>div {
+   padding-left: 4px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.1rem;
+}
+
+.border-col>div>select {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.1rem;
+}
+
+/* remove invalid field border */
+
+.invalid-feedback {
+   border: none !important;
+   display: block;
+}
+
+/* .border-col>div>input {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.1rem;
+   padding-left: 17px;
+   color: #000000 !important;
+} */
+
+.border-col>div>textarea {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.1rem;
+   padding-left: 12px;
+   resize: none;
+   height: 60px;
+}
+
+.border-col>div>div.disabled>div:first-child {
+   color: rgb(188, 188, 188) !important;
+}
+
+.border-col>div>div>div:first-child {
+   color: rgba(0, 0, 0, 1) !important;
+}
+
+/*.border-col > div > div > div:last-child
+{
+   bottom: -12px !important;
+   left: -12px !important;
+}*/
+
+/* Recipe Name blinker */
+
+/* .border-col.col>div input {
+   color: black !important;
+} */
+
+/* Unit and Unit Input fields */
+
+.border-col.col>div input::placeholder {
+   /* Chrome, Firefox, Opera, Safari 10.1+ */
+   /* color: black !important;
+   opacity: 1; */
+   /* Firefox */
+}
+
+/* Recipe Name and Ingredient Input field cursor */
+
+.border-col.col>div>div input {
+   color: black !important;
+   padding-left: 4px !important;
+   font-size: 1.1rem !important;
+}
+
+.border-col.col>div>div input:-webkit-autofill {
+   color: black !important;
+   padding-left: 4px !important;
+   font-size: 1.1rem !important;
+}
+
+.buttons-area {
+   margin: 0px auto;
+}
+
+.buttons {
+   width: 30%;
+   font-size: 20px;
+}
+
+.entered-ingredients {
+   margin-top: 10px;
+   font-size: 1.25rem;
+}
+
+.form {
+   padding-top: 0px;
+}
+
+/*# sourceMappingURL=recipe.css.map */

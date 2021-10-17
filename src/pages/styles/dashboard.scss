@@ -1,0 +1,135 @@
+.black-container {
+  background-color: black;
+  .stock {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    .topbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      color: white;
+      padding: 5px 10px;
+      a {
+        text-decoration: none !important;
+      }
+      .home-link {
+        font-family: arial;
+        font-style: italic;
+      }
+    }
+  }
+}
+
+.list-group {
+  height: 600px;
+  overflow: auto;
+  &.small-part {
+    height: 400px;
+  }
+  &.group-small {
+    height: 100%;
+    .list-group-item {
+      padding: 0.5rem 1.25rem;
+      color: #cec3c3;
+      line-height: 17px;
+      a {
+        color: white !important;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.list-group-item {
+  text-transform: capitalize;
+  border: 1px solid rgba(191, 158, 158, 0.2);
+  line-height: 30px;
+  cursor: pointer;
+  font-size: 15px;
+  &.selected {
+    background-color: #383232;
+  }
+  .info {
+    float: right;
+    .state {
+      margin-right: 20px;
+    }
+    .btn {
+      width: 60px;
+      color: white;
+      &.normal {
+        background-color: #26ae57;
+      }
+      &.moderate {
+        background-color: #d06246;
+      }
+      &.mild {
+        background-color: #7e4bc9;
+      }
+      &.severe {
+        background-color: #fe2f2c;
+      }
+    }
+  }
+  .minus {
+    color: red;
+    margin-right: 20px;
+  }
+  .handler {
+    float: right;
+  }
+  .minus,
+  .handler {
+    cursor: pointer;
+  }
+  background-color: black;
+  font-family: arial;
+  color: white;
+}
+
+.subview {
+  height: 250px;
+  color: white;
+  margin-top: 10px;
+  .subview-item {
+    height: 100%;
+    background-color: #c1c1c13d;
+    .time-selection {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      color: white;
+      padding: 5px 10px;
+      .time-item {
+        color: #bbb7b7;
+        &.active {
+          color: white;
+        }
+      }
+    }
+    .list-group {
+      .list-group-item {
+        background: #2e2e2e !important;
+        border: none;
+        word-break: break-all;
+        font-size: 12px;
+      }
+      .list-group-item {
+        background: #444 !important;
+        border: none;
+        word-break: break-all;
+        font-size: 12px;
+        h5 {
+          color: 999;
+        }
+      }
+    }
+  }
+  .indicator-bar {
+    position: absolute;
+    right: 10px;
+    color: grey;
+  }
+}

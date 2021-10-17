@@ -1,0 +1,72 @@
+.symptom{
+  max-width: 600px;
+  margin: 0 auto;
+  .menu{
+    text-align: right;
+  }
+  .user-list{
+    height: 180px;
+    overflow: auto;
+    background: #9a9a9a30;
+    .item{
+      line-height: 30px;
+    }
+  }
+  .symptom-list{
+    height: 180px;
+    overflow: auto;
+    .item{
+      cursor: pointer;
+      &.selected{
+        background-color: #bbb9b9;
+      }
+    }
+  }
+  .form-group{
+    .date-label{
+      flex-grow: 0;
+      margin-left: 18px;
+      line-height: 33px;
+    }
+    .col{
+      span i{
+        right: 25px;
+      }
+    }
+    span i{
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      cursor: pointer;
+    }
+    .border-col > div > div{
+      border: 1px solid #ced4da;
+      line-height: 15px !important;
+      padding: 0px 12px;
+      height: 38px !important;
+      border-radius: 5px;
+      & > div:last-child{
+        bottom: -12px !important;
+        left: -12px !important;
+      }
+    }
+    .popper-up{
+      .rdtPicker{
+        bottom: 40px !important;
+      }
+    }
+    .popper-left{
+      .rdtPicker{
+        left: -55px !important;
+      }
+    }
+    .popper-right{
+      .rdtPicker{
+        right: 0px !important;
+      }
+    }
+  }
+  .react-datepicker-wrapper, .react-datepicker__input-container{
+    width: 100% !important;
+  }
+}

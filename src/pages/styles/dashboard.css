@@ -1,0 +1,231 @@
+.black-container {
+   max-width: 600px;
+   margin: 0 auto;
+   padding-top: 40px;
+   background-color: #000;
+   height: 100vh;
+   overflow: hidden;
+}
+
+.black-container .stock {
+   padding: 10px;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.black-container .stock .topbar {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   color: white;
+   padding: 5px 10px;
+   align-items: center
+}
+
+.black-container .listSection {
+   flex: 1;
+   overflow: hidden;
+}
+
+.black-container .listSection .dropDownDashboard {
+   height: 8%;
+}
+
+.black-container .stock .topbar a {
+   text-decoration: none !important;
+}
+
+.black-container .stock .topbar .home-link {
+   font-family: arial;
+   font-style: italic;
+}
+
+.list-group {
+   height: 600px;
+   overflow: auto;
+}
+
+.list-group.small-part {
+   height: 92%;
+}
+
+.list-group.group-small {
+   height: 100%;
+}
+
+.list-group.group-small .list-group-item {
+   padding: 0.5rem 1.25rem;
+   color: #cec3c3;
+   line-height: 17px;
+}
+
+.list-group.group-small .list-group-item a {
+   color: white !important;
+   cursor: pointer;
+}
+
+.list-group-item {
+   padding: .5rem 1.25rem;
+   text-transform: capitalize;
+   border: 1px solid rgba(191, 158, 158, 0.2);
+   line-height: 30px;
+   font-size: 18px;
+   background-color: black;
+   font-family: arial;
+   color: white;
+}
+
+.list-group-item_counter {
+   width: 30px;
+   display: inline-block;
+   text-align: left;
+}
+
+.list-group-item .fa {
+   cursor: grab;
+}
+
+.list-group-title h5 {
+   padding: .5rem 0;
+   font-size: 16px;
+   color: #999;
+   font-weight: normal;
+}
+
+.list-group-item.selected {
+   background-color: #383232;
+}
+
+.list-group-item .info {
+   float: right;
+}
+
+.list-group-item .info .state {
+   margin-right: 20px;
+}
+
+.list-group-item .info .btn {
+   width: 60px;
+   color: #424242;
+   font-size: 18px;
+   padding: 3px 10px;
+}
+
+.list-group-item .info .btn.severity0 {
+   background-color: rgb(0, 255, 0);
+}
+
+.list-group-item .info .btn.severity1 {
+   background-color: rgb(153, 255, 51);
+}
+
+.list-group-item .info .btn.severity2 {
+   background-color: rgb(204, 255, 102);
+}
+
+.list-group-item .info .btn.severity3 {
+   background-color: rgb(255, 255, 102);
+}
+
+.list-group-item .info .btn.severity4 {
+   background-color: rgb(255, 255, 0);
+}
+
+.list-group-item .info .btn.severity5 {
+   background-color: rgb(255, 204, 0);
+}
+
+.list-group-item .info .btn.severity6 {
+   background-color: rgb(255, 153, 51);
+}
+
+.list-group-item .info .btn.severity7 {
+   background-color: rgb(255, 102, 0);
+}
+
+.list-group-item .info .btn.severity8 {
+   background-color: rgb(255, 51, 0);
+}
+
+.list-group-item .info .btn.severity9 {
+   background-color: rgb(204, 0, 0);
+   color: #fff;
+}
+
+.list-group-item .info .btn.severity10 {
+   background-color: rgb(153, 0, 0);
+   color: #fff;
+}
+
+.list-group-item .info .btn.normal {
+   background-color: #26AE57;
+}
+
+.list-group-item .info .btn.moderate {
+   background-color: #D06246;
+}
+
+.list-group-item .info .btn.mild {
+   background-color: #7E4BC9;
+}
+
+.list-group-item .info .btn.severe {
+   background-color: #FE2F2C;
+}
+
+.list-group-item .minus {
+   color: red;
+   margin-right: 20px;
+}
+
+.list-group-item .handler {
+   float: right;
+}
+
+.list-group-item .minus, .list-group-item .handler {
+   cursor: pointer;
+}
+
+.subview {
+   height: 270px;
+   color: white;
+   margin-top: 10px;
+}
+
+.subview .subview-item {
+   height: 94%;
+   background-color: #c1c1c13d;
+}
+
+.subview .subview-item .time-selection {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   color: white;
+   padding: 3px 10px;
+   margin-left: 50%;
+}
+
+.subview .subview-item .time-selection .time-item {
+   color: #bbb7b7;
+}
+
+.subview .subview-item .time-selection .time-item.active {
+   color: white;
+}
+
+.subview .subview-item .list-group .list-group-item {
+   background: #2e2e2e !important;
+   border: none;
+   word-break: break-all;
+   font-size: 12px;
+}
+
+.subview .indicator-bar {
+   position: absolute;
+   right: 10px;
+   color: grey;
+}
+
+/*# sourceMappingURL=dashboard.css.map */
